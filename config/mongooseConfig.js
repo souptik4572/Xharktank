@@ -10,9 +10,6 @@ export const configureMongoose = () => {
 	const dbUrl = process.env.DB_URL || 'mongodb://localhost:27017/xharktank';
 	// connecting to mongodb
 	mongoose.connect(dbUrl).then(async () => {
-		// Pruning the already filled up db, this will help to ensure that while tests run it gets a fresh db
-		await Pitch.deleteMany({});
-		await CounterOffer.deleteMany({});
 		console.log(`Server is up and running: ${!!mongoose.connection.readyState}`);
 	});
 };

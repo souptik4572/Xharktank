@@ -24,13 +24,3 @@ app.listen(PORT, () => {
 	console.log(`Server is up and running at http://localhost:${PORT}`);
 });
 
-
-// https://rebrand.ly/xharktank-pitches-https/?author=souptiksarkar4572&url=https://xharktank.herokuapp.com
-
-// https://rebrand.ly/xharktank-invest-https/?author=souptiksarkar4572&url=https://xharktank.herokuapp.com
-
-
-// https://rebrand.ly/xharktank-pitches-http/?author=souptiksarkar4572&url=xharktank.herokuapp.com
-
-// https://rebrand.ly/xharktank-invest-http/?author=souptiksarkar4572&url=<Your HTTP backend url>
-
